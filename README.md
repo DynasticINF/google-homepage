@@ -1,1 +1,1 @@
-First Project From The Odin Project, a little nervous about but my first big step into becoming a Web Developer! 
+First Project From The Odin Project, had to make a replica of the Google Homepage. Nice Challenge learned alot and I'm looking forward to improving!
