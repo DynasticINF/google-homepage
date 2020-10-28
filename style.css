@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+#container{
+    min-height: 100%;
+    width: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 1px;
+}
+
+ul{
+    list-style-type:none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.no-outline{
+    outline: none;
+}
+.about{
+  position: absolute;
+  top: 21px;
+  left: 21px;
+}
+
+.store{
+  position: absolute;
+  left: 72px;
+  top:21px;
+  
+}
+
+.gmail{
+  position: absolute; 
+  left: 90%;
+  top:21px; 
+}
+
+.dot{
+  position: relative;
+  left:95%;
+  top: 31px;
+}
+
+.images{
+  position: absolute;
+  left:92%;
+  top: 21px;
+}
+
+.search{
+    outline:none;
+    position: absolute;
+    top: 27.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    border: 1px solid rgb(202, 202, 202);
+    height:38px;
+    width: 574px;
+    border-radius: 50px;
+    box-shadow: -0.001em 0px  0.10em  rgb(202, 202, 202);
+
+}
+input:hover{
+    box-shadow: -2px 3px 5px  rgb(202, 202, 202);
+}
+img{
+    max-width: width 100%; ;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+
+}
+
+.mic{
+    position: absolute;
+    left: 95%;
+    top: 21px;
+}
+
+.Magnifying{
+    width:30px;
+    position: absolute;
+    left: 30px;
+    top: 23px;
+}
+
+.button1{
+    position: absolute;
+    top: 167%;
+    left: 25%;
+    border: 1px solid white;
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+}
+.button1:hover{
+    box-shadow: 1px 2px 5px grey;
+    border: 0.5px solid  rgb(202, 202, 202);
+}
+.button2{
+    position: absolute;
+    top: 168%;
+    left: 49%;
+    border: 1px solid white;
+    height: 40px;
+    width: 145px;
+    border-radius: 5px;
+}
+.button2:hover{
+    box-shadow: 1px 2px 5px grey;
+    border: 0.5px solid  rgb(202, 202, 202);
+}
+
+.button3{
+    position: absolute;
+    left: 96%;
+    top: 15px;
+    height:30px;
+    width: 65px;
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#4583ee;
+}
+#footer{
+    background-color:rgb(202, 202, 202) ;
+    position: relative;
+    height: 0.5px;
+    top:999px;
+    margin-top: 170px;
+}
+.advertising{
+    position: absolute;
+    font-size:20px;
+    top: 10px;
+    left:1%;
+}
+.business{
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left: 5%;
+}
+.search-works{
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left: 8%;
+}
+.privacy{
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left: 92%;
+}
+.terms{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 94.5%;
+}
+.settings{
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left:97%;
+}
+
